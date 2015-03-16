@@ -1,0 +1,121 @@
+/*Kinsang_13331038_web2.0_movie*/
+
+
+body {
+	background-image: url(images/background.png);
+	background-repeat: repeat;
+}
+p, dl, span{
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 8pt;
+}
+#banner {
+	background-image: url(images/bannerbackground.png);
+	background-repeat: repeat-x;
+}
+#banner img {
+	margin-left:25%;
+}
+h1 {
+	text-align: center;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 24pt;
+}
+.main {
+	border: solid;
+	border-color: grey;
+	width: 800px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.view {
+	float: right;
+	width: 250px;
+	margin: 0;
+}
+.view img {
+	display: block;
+}
+.view dl {
+	padding: 10px;
+}
+dl {
+	margin: 0;
+	padding: 0;
+	background-color:#A2B964;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+span#one {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+	vertical-align: top;
+}
+span#two {
+	color: white;
+	font-weight:normal;
+	vertical-align: 50%;
+}
+
+#comment img {
+	height: 83px;
+}
+#comment {
+	background-repeat: repeat-x;
+	background-image:url(images/rottenbackground.png);
+	clear:both;
+}
+
+.content {
+	float:left;
+	width:550px;
+	overflow: hidden;
+}
+.left {
+	float:left;
+	width: 47%;
+}
+.right {
+	float: left;
+	width: 47%;
+}
+.left img, .right img {
+	float: left;
+}
+p {
+	font-style: italic;
+	overflow: hidden;
+}
+.author {
+	border: solid;
+	border-color: grey;
+	border-spacing: 2px;
+	padding: 8px;
+	margin: 5px;
+	background-color: #E1D697;
+	font-weight: bold;
+	margin-top:3em;
+	font-style: normal;
+}
+
+#last {
+	clear: both;
+	text-align: center;
+	background-color:#A2B964;
+	margin: 0;
+	font-style: normal;
+}
+
+.logo {
+	position: fixed;
+	bottom: 0;
+	right: 3%;
+	text-decoration: none;
+}
+
+

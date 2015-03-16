@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--Copyright reversed by SS.SYSU-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Buy Your Way to a Better Education!</title>
+		<link href="{{ static_url("buyagrade.css") }}" type="text/css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<h1>Buy Your Way to a Better Education!</h1>
+
+		<p>
+			The rough economy, along with recent changes in University of Washington policy, now allow us to offer grades for money.  That's right!  All you need to get a 4.0 in this course is cold, hard, cash.
+		</p>
+
+		<hr />
+
+		<h2>Give us your money</h2>
+
+
+		<form action="/" method="post">
+			<div class="BUTTON">
+				name: <input type="text" name="name"/>
+			</div>
+			<div class="BUTTON">
+				section: 
+				<select name="section">
+					<option value="default">&lt; Select a section &gt;</option>
+					<option value="MA">MA</option>
+					<option value="MB">MB</option>
+					<option value="MC">MC</option>
+					<option value="MD">MD</option>
+					<option value="ME">ME</option>
+					<option value="MF">MF</option>
+					<option value="MG">MG</option>
+					<option value="MH">MH</option>
+				</select>
+			</div>
+			<div class="BUTTON">
+				credit card: <input type="text" name="card"/>
+			</div>
+			<div class="BUTTON">
+				<input type="radio" name="card_type" value="visa"/> Visa
+				<input type="radio" name="card_type" value="mastercard"/> MasterCard
+			</div>
+			<input type="submit", name="bottom" value="I am a gaint sucker">
+		</form>
+		
+	</body>
+</html>

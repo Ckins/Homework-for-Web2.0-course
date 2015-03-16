@@ -1,0 +1,4 @@
+name|石德金
+course|Marks
+dianming|否
+score|高

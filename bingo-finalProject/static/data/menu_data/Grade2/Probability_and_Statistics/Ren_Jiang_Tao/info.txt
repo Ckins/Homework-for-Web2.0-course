@@ -1,0 +1,4 @@
+name|任江涛
+course_name|概率统计
+dianming|是
+score|高

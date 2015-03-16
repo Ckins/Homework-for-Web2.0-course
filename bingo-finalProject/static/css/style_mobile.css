@@ -1,0 +1,296 @@
+@import url('reset.css');
+body {
+    background:#000;
+    color:#000;
+    font-family: 'Terminal Dosis Light', Arial, sans-serif;
+    font-size:16px;
+}
+a {
+    color:#000;
+    text-decoration:none;
+}
+.bf_background img {
+    z-index: -1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.bf_overlay{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    opacity:0.5;
+}
+.bf_menu{
+
+    background:transparent url(../images/pattern.png) repeat top left;
+    width:330px;
+    left:0px;
+    top:0px;
+    position:absolute;
+}
+h1.title{
+    color:#fff;
+    font-size:10rem;
+    padding:0px 0px 20px 20px;
+    background: #184545;
+}
+h1.title span{
+    display:block;
+    font-size:3.2rem;
+    margin:-10px 0px 0px 100px;
+}
+.bf_menu ul{
+    display:block;
+    margin-top:50px;
+}
+.bf_menu ul li{
+    display:block;
+}
+.bf_menu ul li a{
+    color:#fff;
+    font-size:30px;
+    text-shadow:0px 0px 1px #fff;
+    line-height:50px;
+    padding:0px 20px 0px 30px;
+    display:block;
+    position:relative;
+    margin:5px 0px;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -transition: all 0.3s ease-in-out;
+}
+.bf_menu h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bf_menu ul li a span.bf_hover{
+    background:transparent url(../images/bg_black.png) repeat top left;
+    opacity:0.1;
+    position:absolute;
+    width:0px;
+    height:0px;
+    top:50%;
+    left:0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -transition: all 0.3s ease-in-out;
+}
+.bf_menu ul li a:hover span.bf_hover{
+    height:100%;
+    width:100%;
+    margin-top:-25px;
+    opacity:1.0;
+}
+.teacher_class_info {
+    width:80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    margin: 0 auto;
+    border-radius:50px;
+    overflow: hidden;
+}
+.bf_menu ul li a span{
+    position:relative;
+}
+.teacher_class_info p{
+    color:#fff;
+    font-size:2rem;
+}
+.informaion_head{
+    width: 100%;
+}
+.my_picture{
+    position: relative;
+    width: 60%;
+    height: 60%;
+    top: 20%;
+    left: 20%;
+}
+.teacher_img{
+    width : 50%;
+}
+.reference {
+    color:#fff;
+    font-size:1.5rem;
+}
+.reference {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 50%;
+}
+.reference_container{
+    position: absolute;
+    top: 20%;
+}
+.exam_material {
+    width: 100%;
+    line-height: 50px;
+}
+.material_title {
+    background-color: black;
+    opacity: 0.7;
+    top: -20px;
+}
+.exam_material p {
+    margin-left: 30px;
+}
+.material_container{
+    background-color: black;
+    opacity: 0.6;
+}
+.exam_material li {
+    display: block;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    color:#fff;
+    font-size:1.5rem;
+    text-shadow:0px 0px 1px #fff;
+}
+.exam_material ul {
+    margin-bottom: 2px;
+}
+.exam_material a {
+    font-size: 1.5rem;
+}
+.remark_area{
+    width: 100%;
+}
+.remark{
+    color:#fff;
+    width: 60%;
+    font-size:2rem;
+    text-shadow:0px 0px 1px #fff;
+    position: relative;
+    margin:0 auto;
+}
+.remark_area li{
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    color:#fff;
+    font-size:1.5rem;
+    text-shadow:0px 0px 1px #fff;
+}
+.remark_area p{
+    color:#fff;
+    font-size:2rem;
+}
+.remark_history {
+    position: relative;
+    left: 10%;
+}
+.new_remark{
+    width: 100%;
+}
+.new_remark_container{
+    position: relative;
+    left: 10%;
+}
+.input_area{
+    position: relative;
+    width: 60%
+    left: 20%;
+    top: 10%;
+}
+.input_area textarea{
+    width:80%;
+}
+.buttons{
+    margin-top: 5px;
+    width: 100%;
+}
+.back_button{
+    width:150px;
+    margin: 0 auto;
+}
+.login_area {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #fff;
+    margin: 0;
+    padding: 14px 6px;
+    height: 80px;
+    width: 200px;
+    text-align: center;
+}
+.black_bg {
+
+    height: 80px;
+    width: 200px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background-color: black;
+    opacity: 0.2;
+}
+.welcome{
+    color:#fff;
+    font-size:2rem;
+}
+.loginSignup {
+    margin-top: 25%;
+    background-color: rgba(199, 157, 110, 0.3);
+}
+.log_in_area{
+    opacity: 0.7;
+    border-radius:15px !important;
+    text-align: center;
+}
+.overlay{
+    position: absolute;
+    background-color: grey;
+    opacity: 0.6;
+    z-index: -1;
+}
+.form-horizontal {
+    opacity: 1;
+}
+.myIntroduction {
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.myIntroduction h1 {
+    color: white;
+    font-size: bold;
+    text-align: right;
+}
+.myText {
+    font-family: "SimSun";
+    color: white;
+    text-indent: 4em;
+}
+.my_log_in_bt {
+    color: #fff;
+}
+
+
+/*min */
+.container {
+    opacity: 0;
+}
+.login_area {
+    opacity: 0;
+}
+.black_bg {
+    opacity: 0;
+}
+.bf_menu {
+    width: 100%;
+
+}
+h1.title span{
+    margin:10px -10px 0px 80px;
+}
+.hehe {
+    height: 2000px;
+    width: 300px;
+}

@@ -1,0 +1,87 @@
+body {
+	background-image: url(images/background.gif);
+	background-repeat: repeat;
+}
+
+span {
+	border-bottom: 2px blue dashed;
+}
+
+.clearfix {
+	clear: right;
+	height: 1px;
+}
+
+.all {
+	margin: 0 auto;
+	width: 90%;
+}
+.main {
+	border: 10px white solid;
+	background-color: white;
+	overflow: hidden;
+	width: 90%;
+}
+.first {
+	background-color: #A8F0F0;
+	padding:1px;
+	margin-bottom: 10px;
+}
+.first {
+	text-align: right;
+}
+.first h2 {
+	font-size: 14pt;
+}
+.second {
+	padding-top: 5px;
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	margin-bottom: 10px;
+	width: 80%;
+	float: right;
+}
+
+.third {
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	margin-top: 10px;
+	width:80%;
+	float: right;
+}
+
+.second img {
+	float: right;
+}
+
+.third img {
+	float: right;
+}
+.fourth {
+	float: left;
+	border: 4px blue solid;
+	width: 15%;
+	margin-top: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.main * *:hover {
+	color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+	.second {
+		width:100%; 
+		overflow: hidden;
+	}
+	.third img {
+		width: 40%;
+	}
+	.fourth, .second, .third {
+		width: 100%;
+		float: none;
+	}
+
+}

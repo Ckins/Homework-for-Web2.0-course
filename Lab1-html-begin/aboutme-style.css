@@ -1,0 +1,56 @@
+body {
+	background-color:#CCCCFF;
+	font-family:"Arial Black";
+	font-weight: 900;
+	background-repeat:no-repeat;
+}
+h1 {
+	font-family:"Times New Roman";
+	color:black;
+}
+strong {
+	color:rgb(200,18,100);
+}
+p {
+	font-family:"Times New Roman";
+	font-size:20px;
+}
+p:first-letter {
+    font-family: Times, Times New Roman, Tahoma;
+    font-size: 30px;
+}
+h2 {
+	text-shadow:1px 2px 7px #000;
+}
+.myol {
+	font-family:"Verdana";
+	font-weight: 900;
+	counter-reset: index 4;
+    list-style: square;
+}
+a:hover {
+	color:#FF00FF;
+	text-decoration:underline;
+}
+a:link {
+	text-decoration:none;
+}
+dt {
+	color: rgb(195,18,100);
+}
+.myol li {
+	counter-increment: index -1;
+}
+.myol li:before{
+	content: counter(index) " -";
+}
+div {
+	width: 700px;
+}
+#myA, #myB {
+	float: right;
+}
+.clearfix {
+	clear: both;
+	height: 10px;
+}

@@ -1,0 +1,139 @@
+/*Kinsang_13331038_web2.0_test*/
+
+.header {
+	background-color: #0767c8;
+	width: 100%;
+	height: 48px;
+	margin-top: 0;
+	position: fixed;
+	top: 0;
+}
+.header a {
+	display: inline-block;
+}
+
+.search {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+.innerhead {
+	width: 960px;
+	margin: 0 auto;
+}
+.innerhead p {
+	font-size: 20px;
+	color: white;
+	float: left;
+}
+
+#comment {
+	clear: both;
+}
+
+#comment a {
+	float: right;
+	color: #666;
+	text-decoration: none;
+}
+
+a {
+	color: #259;
+	clear: both;
+}
+
+.first_essay {
+	overflow: hidden;
+}
+
+.first_essay img {
+	width: 90px;
+	height: 90px;
+	float:left;
+}
+.hottest {
+	margin-top:50px;
+}
+
+hr {
+	color:#999; 
+}
+p, dl, span{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Helvetica", Ubuntu, Tahoma, Verdana, Arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	font-size: 8pt;
+}
+
+.main {
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 50px;
+}
+.view {
+	float: right;
+	width: 300px;
+	margin: 0;
+}
+.view img {
+	display: block;
+}
+.view dl {
+	padding: 10px;
+}
+dl {
+
+	padding: 10px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+.one {
+	font-size: 10pt;
+	color: #666;
+	font-weight: bold;
+	vertical-align: top;
+}
+
+
+
+.content {
+	float:left;
+	width:650px;
+	overflow: hidden;
+	margin: 0;
+}
+.left {
+	float:left;
+	width: 100%;
+}
+
+.left img {
+	float: left;
+}
+p {
+	font-style: italic;
+	overflow: hidden;
+}
+.author {
+	border-spacing: 2px;
+	padding: 8px;
+	margin: 5px;
+	font-weight: bold;
+	font-style: normal;
+	overflow: hidden;
+	clear: both;
+}
+
+.author img {
+	float: left;
+}
+
+.introduce {
+	background-color: #999;
+	margin-top:70px;
+}
+
+
