@@ -5,7 +5,7 @@
 > 2.   JavaScript and jQuery.
 > 3.   Python & Tornado
 > 
-> In addition, tests for each phases:
+> In addition, tests for each phase:
 >
 > + Imitate the main page of zhihu.
 > + Use Tornado to implement a simple blog.
