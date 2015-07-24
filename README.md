@@ -18,6 +18,8 @@
 2. For Tornados, first install Tornado
 3. Run the XXX.py in the directory(like nerdluv.py)
 
-> sudo apt-get install pip</br>
-> sudo pip install tornado</br>
-> python nerdluv.py (In Homework4)</br>
+> sudo apt-get install pip
+</br>
+> sudo pip install tornado
+</br>
+> python nerdluv.py (In Homework4)
