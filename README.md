@@ -23,3 +23,5 @@
 > sudo pip install tornado
 </br>
 > python nerdluv.py (In Homework4)
+<br>
+> visit http://localhost:8888
